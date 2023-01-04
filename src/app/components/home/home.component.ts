@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 declare function progressBar(): any;
+declare function addBackground(): any;
 
 @Component({
   selector: 'app-home',
@@ -12,6 +13,7 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    addBackground();
     progressBar();
   }
 
