@@ -2,18 +2,14 @@
 
 @font-face {
 	font-family: 'yekan-balkh';
-	/* src:url('../fonts/et-line.eot'); */
-	src:
-        /* url('../fonts/et-line.eot?#iefix') format('embedded-opentype'), */
-		/* url('../fonts/et-line.ttf') format('truetype'), */
-		/* url('../fonts/et-line.svg#et-line') format('svg'), */
-		url('./assets/fonts/yekanbakh/woff/YekanBakhFaNum-Regular.woff') format('woff');
+	
+	src: url('./assets/fonts/yekanbakh/woff/YekanBakhFaNum-Regular.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
 body, .font-alt {
-    font-family: "yekan-balkh";
+    font-family: "yekan-balkh", "Noto Sans Kufi Arabic", arial, sans-serif;
 }
 
 div.progress-bar {
