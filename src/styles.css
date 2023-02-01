@@ -1,12 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
-@font-face {
+/* @font-face {
 	font-family: 'yekan-balkh';
 	
 	src: url('./assets/fonts/yekanbakh/woff/YekanBakhFaNum-Regular.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
-}
+} */
 
 body, .font-alt {
     font-family: "yekan-balkh", "Noto Sans Kufi Arabic", arial, sans-serif;
